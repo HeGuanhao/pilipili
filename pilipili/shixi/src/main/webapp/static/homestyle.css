@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+body {
+	background-image: url(https://img.zcool.cn/community/0112cd5dc021daa801209e1f8cec04.png@1280w_1l_2o_100sh.png);
+	background-size: cover;
+}
+
+ul, h2, h4, h1, input {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+.part_reco {
+	padding: 51px 0px 50px 0px;
+}
+
+.reco_con {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.head_con{
+	position: relative;
+	z-index:2;
+}
+.logo{
+	width: 170px;
+	height: 46px;
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	z-index:2;
+}
+.headback_con {
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index:1;
+}
+.tit {
+	font-size: 30px;
+	color: #333;
+	letter-spacing: 14px;
+	text-align: center;
+	line-height: 150px;
+	margin-bottom: 34px;
+}
+
+.reco_list li {
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+}
+
+.list_pic img {
+	width: 224px;
+	vertical-align: top;
+
+}
+
+.list_tit {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-bottom: 50px;
+
+}
+
+.top_list{
+	font-size: 16px;
+	overflow: hidden;
+}
+
+.top_list li{
+	float: left;
+}
+.top_list .current{
+	background:  #46A3FF;
+}
+.top_list .current a{
+	color: #fff;
+}
+.top_list .current a:hover{
+	color: #fff;
+}
+.top_list .current2{
+	background:  #7D7DFF;
+}
+.top_list .current2 a{
+	color: #fff;
+}
+.top_list .current2 a:hover{
+	color: #fff;
+}
+.top_list a{
+	color: #000;
+	display: block;
+	line-height: 30px;
+	padding: 0px 10px;
+}
+
+.head_search{
+	width: 218px;
+	height: 36px;
+
+	position: absolute;
+	left:600px;
+	top:10px;
+
+}
+.sear_input {
+	padding-left: 11px;
+	height: 36px;
+	line-height: 36px;
+	border: none;
+	outline: none;
+	width: 174px;
+}
+button i{
+	width: 14px;
+	height: 14px;
+	display: block;
+	background: url("https://p3-bcy.byteimg.com/img/banciyuan/01f96cd24dca4f219fcb9b7120d0f1a7~noop.image") no-repeat;
+}
+button{
+
+
+}
+
+a:link {
+	color:    #000   ;
+}
+
+a:visited {
+	color:   #000  ;
+}
+
+a:hover {
+	color: #3399FF;
+}

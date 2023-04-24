@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+	background-image: url(https://img.zcool.cn/community/0112cd5dc021daa801209e1f8cec04.png@1280w_1l_2o_100sh.png);
+	background-size: cover;
+}
+
+ul, h2, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+table{
+	width:30%;
+}
+table,th{
+	text-align:center;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+.register{
+	text-align:center;
+}
+
+
+a:link {
+	color: #333;
+}
+
+a:vsited {
+	color: #333;
+}
+
+a:hover {
+	color: #3399FF;
+}
